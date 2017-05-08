@@ -1,0 +1,70 @@
+<script type="text/javascript">
+	
+var months = [
+
+	'Janurary',
+	'February',
+	'March',
+	'April',
+	'May',
+	'June',
+	'July',
+	'August',
+	'September',
+	'October',
+	'November',
+	'December'
+]
+
+monthInput = prompt("What month is it?")
+yearInput = prompt("What year is it?")
+
+if (monthInput == months[0]){
+	console.log("This month has 31 days")
+}
+else if ((monthInput == months[1]) && (yearInput % 4 != 0)){
+	console.log("This month has 28 days")
+}
+else if ((monthInput == months[1]) && (yearInput % 4 == 0)){
+	console.log("This month has 29 days")
+}
+else if (monthInput == months[2]){
+	console.log("This month has 31 days")
+}
+else if (monthInput == months[3]){
+	console.log("This month has 30 days")
+}
+else if (monthInput == months[4]){
+	console.log("This month has 31 days")
+}
+else if (monthInput == months[5]){
+	console.log("This month has 30 days")
+}
+else if (monthInput == months[6]){
+	console.log("This month has 31 days")
+}
+else if (monthInput == months[7]){
+	console.log("This month has 31 days")
+}
+else if (monthInput == months[8]){
+	console.log("This month has 30 days")
+}
+else if (monthInput == months[9]){
+	console.log("This month has 31 days")
+}
+else if (monthInput == months[10]){
+	console.log("This month has 30 days")
+}
+else if (monthInput == months[11]){
+	console.log("This month has 31 days")
+}
+else{
+	console.log("Your input is invalid")
+}
+
+
+
+
+
+
+</script>
